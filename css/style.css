@@ -9,9 +9,27 @@ body{
 .bg_blue{
   background-color: #579AFF;
 }
+.bg_grey{
+  background-color:#F3F5F9;
+}
 .text_white{
   color:#fff;
 }
+.color_grey{
+  color:#6F7B97;
+}
+.color_blue{
+  color:#031C4E;
+}
+.color_lightblue{
+  color:#006AFF;
+}
+h2{
+  color:#031C4E;
+  font-size: 32px;
+  font-weight: 600;
+}
+
 /* header */
 .top-header{
   height: 50px;
@@ -82,9 +100,7 @@ body{
   margin: 0 auto;
 }
 .form__hero h2{
-  color:#031C4E;
   font-size: 24px;
-  font-weight: 600;
 }
 
 .form__hero h3{
@@ -136,7 +152,6 @@ body{
 
 /* layout customers section */
 .customers{
-  background-color:#F3F5F9;
   padding: 30px 0;
 }
 .customers h4{
@@ -167,11 +182,7 @@ body{
   max-width:800px;
   margin:0 auto;
 }
-.deploy h2{
-  color:#031C4E;
-  font-size: 32px;
-  font-weight: 600;
-}
+
 .text_deploy{
   font-size: 18px;
   font-weight: 500;
@@ -216,5 +227,38 @@ body{
 /* /layout singoli box */
 
 /* /layout deploy section */
+
+/* layout designed section */
+.designed{
+  padding:50px 0;
+}
+.subtitle_text{
+  font-size: 18px;
+  font-weight: 500;
+  color: #75809C;
+  padding: 50px 0;
+}
+.designed img {
+  width:50%;
+}
+
+/* layout carousel */
+.icon_img{
+  display: inline-block;
+  padding: 0 50px;
+  font-size:44px;
+}
+.text-carousel{
+  font-size:14px;
+  font-weight: 500;
+  margin-top:20px;
+}
+
+/* /layout carousel */
+
+/* layout bullets */
+
+/* layout bullets */
+/* layout designed section */
 
 /* main */
