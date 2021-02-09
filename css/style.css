@@ -6,6 +6,12 @@ body{
 .bg_white{
   background-color: #fff;
 }
+.bg_blue{
+  background-color: #579AFF;
+}
+.text_white{
+  color:#fff;
+}
 /* header */
 .top-header{
   height: 50px;
@@ -61,6 +67,7 @@ body{
   font-size: 54px;
   font-weight: bold;
   color:#fff;
+  margin-top:0;
 }
 .hero p{
   font-size: 18px;
@@ -68,6 +75,41 @@ body{
   color:#B7C9FE;
 }
 
+/* layout form */
+.form__hero{
+  border-radius:6px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form__hero h2{
+  color:#031C4E;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form__hero h3{
+  color:#1C7AFF;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top:10px;
+}
+.form__hero input{
+  border: 1px solid #f1f1f1;
+  box-shadow: none;
+}
+.form__hero input::placeholder{
+  color:#7D7D7D;
+  font-weight: 500;
+}
+.form__hero p{
+  font-size:14px;
+  color:#7D7D7D;
+
+}
+.form__hero a{
+  text-decoration: underline;
+}
+/* /layout form */
 
 /* layout button form */
 .button__form{
@@ -78,7 +120,12 @@ body{
   background-repeat: no-repeat;
   background-position: 5px;
   background-size: 25px;
+  color:#7D7D7D;
+  font-weight: 500;
+  border: 1px solid #f1f1f1;
+  box-shadow: 2px 2px #80808017;
 }
+
 /* /layout button form */
 
 /* /layout hero */
