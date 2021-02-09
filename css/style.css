@@ -39,6 +39,15 @@ body{
   color:#1C7AFF;
 }
 /* /layout button sign up */
+
+/* hamburger button */
+.hamburger__btn{
+  background-color: transparent;
+  font-size:18px;
+  color:#1C7AFF;
+}
+/* /hamburger button */
+
 /* /menu */
 
 /* /header */
