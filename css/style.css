@@ -50,4 +50,20 @@ body{
 
 /* /menu */
 
+/* layout hero */
+.hero{
+  background-image:url("../img/hero_bg.svg");
+}
+.principal_title{
+  font-size: 54px;
+  font-weight: bold;
+  color:#fff;
+}
+.hero p{
+  font-size: 18px;
+  font-weight: 500;
+  color:#B7C9FE;
+}
+/* /layout hero */
+
 /* /header */
