@@ -1,0 +1,9 @@
+.button__form{
+  width:100%;
+}
+.button__google{
+  background-image: url("../img/google-icon.png");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 25px;
+}

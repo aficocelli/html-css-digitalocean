@@ -3,7 +3,9 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-
+.bg_white{
+  background-color: #fff;
+}
 /* header */
 .top-header{
   height: 50px;
@@ -53,6 +55,7 @@ body{
 /* layout hero */
 .hero{
   background-image:url("../img/hero_bg.svg");
+  padding: 50px 0;
 }
 .principal_title{
   font-size: 54px;
@@ -64,6 +67,20 @@ body{
   font-weight: 500;
   color:#B7C9FE;
 }
+
+
+/* layout button form */
+.button__form{
+  width:100%;
+}
+.button__google{
+  background-image: url("../img/google-icon.png");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 25px;
+}
+/* /layout button form */
+
 /* /layout hero */
 
 /* /header */
