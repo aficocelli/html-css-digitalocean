@@ -131,3 +131,16 @@ body{
 /* /layout hero */
 
 /* /header */
+
+/* main */
+
+/* layout customers section */
+.customers{
+  background-color:#F3F5F9;
+}
+.customers img{
+  max-width:100%;
+}
+/* /layout customers section */
+
+/* main */
