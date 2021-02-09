@@ -190,10 +190,17 @@ body{
 .deploy li a:hover{
   text-decoration: none;
 }
-.prova>div{
-  height:100px;
-  background-color:red;
-  border:1px solid black;
+.box_text h4{
+  padding-top: 10px;
+  color:#031C4E;
+  font-weight:600;
+  font-size:16px;
+}
+.box_text p{
+  font-size:14px;
+}
+.box_text img{
+  width:32px;
 }
 /* /layout deploy section */
 
