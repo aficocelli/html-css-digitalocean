@@ -162,10 +162,38 @@ body{
 .deploy{
   padding: 50px 0;
 }
+.small_container{
+  max-width:900px;
+  margin:0 auto;
+}
 .deploy h2{
   color:#031C4E;
   font-size: 32px;
   font-weight: 600;
+}
+.deploy p{
+  font-size: 18px;
+  font-weight: 500;
+  color: #75809C;
+  margin-bottom:50px;
+}
+.deploy li{
+  list-style-type: none;
+  border-left: 1.5px solid lightgrey;
+  padding: 10px 10px;
+}
+.deploy li a{
+  color:#75809C;
+  font-weight:500;
+  font-size: 16px;
+}
+.deploy li a:hover{
+  text-decoration: none;
+}
+.prova>div{
+  height:100px;
+  background-color:red;
+  border:1px solid black;
 }
 /* /layout deploy section */
 
