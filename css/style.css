@@ -5,10 +5,14 @@ body{
 }
 
 /* header */
-
+.top-header{
+  height: 50px;
+  line-height: 50px;
+}
 /* logo */
 .top-header img{
-  height:30px;
+  height:24px;
+  margin-bottom: 4px;
 }
 /* /logo */
 
@@ -18,11 +22,23 @@ body{
 }
 .top-header ul li a{
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 14px;
+  color:#031C4E;
+  font-weight: 500;
+}
+.top-header ul li a:hover{
+  text-decoration: none;
 }
 .top-header ul li:not(:last-child){
   margin-right:16px;
 }
+/* layout button sign up */
+.second_menu .button_signup{
+  background-color: #fff;
+  border:1px solid #1C7AFF;
+  color:#1C7AFF;
+}
+/* /layout button sign up */
 /* /menu */
 
 /* /header */
