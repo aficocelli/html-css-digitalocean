@@ -32,7 +32,9 @@ h2{
   font-size: 32px;
   font-weight: 600;
 }
-
+.inline__bl{
+  display:inline-block;
+}
 /* header */
 .top-header{
   height: 50px;
@@ -280,7 +282,8 @@ h2{
 .table_sec{
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,71,197,1) 0%, rgba(0,32,155,1) 100%, rgba(3,141,208,1) 100%);
-  padding-top:50px;
+  padding:50px 0;
+
 }
 .table_sec table {
   width:100%;
@@ -293,5 +296,9 @@ h2{
   padding:10px 0;
 }
 /* /layout table section */
+
+/* layout teams section */
+
+/* /layout teams section */
 
 /* main */
