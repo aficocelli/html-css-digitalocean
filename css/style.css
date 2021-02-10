@@ -256,9 +256,18 @@ h2{
 
 /* /layout carousel */
 
-/* layout bullets */
-
-/* layout bullets */
 /* layout designed section */
+
+/* layout features section */
+.features {
+  padding: 50px 0;
+}
+.features h2{
+  margin-bottom:30px;
+}
+.features a{
+  font-weight:500;
+}
+/* /layout features section */
 
 /* main */
