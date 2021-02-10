@@ -34,6 +34,7 @@ h2{
 }
 .inline__bl{
   display:inline-block;
+  vertical-align: middle;
 }
 /* header */
 .top-header{
