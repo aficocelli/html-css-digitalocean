@@ -356,3 +356,38 @@ h2{
 /* layout started section */
 
 /* main */
+
+/* footer */
+footer{
+  padding:50px 0;
+  background-color:#031C4E;
+}
+.logo_small{
+  height:35px;
+}
+.copyright{
+  padding-top:10px;
+  margin-bottom:0;
+  color:#8993A8;
+  font-weight: 600;
+  font-size: 12px;
+}
+.credits{
+  color:#4F5F80;
+  font-weight: 600;
+  font-size: 12px;
+}
+.social_list ul{
+  padding-left:0;
+}
+.social_list li{
+  display:inline-block;
+  padding-right:10px;
+}
+.social_list a{
+  color:#8993A8;
+}
+.social_list i{
+  font-size:18px;
+}
+/* /footer */
