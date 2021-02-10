@@ -390,4 +390,20 @@ footer{
 .social_list i{
   font-size:18px;
 }
+footer h5{
+  color:#fff;
+  font-weight: 600;
+}
+.list_service{
+  padding-left:0;
+  list-style-type: none;
+}
+.list_service li{
+  padding-bottom:5px;
+}
+.list_service a{
+  color:#8993A8;
+  font-weight: 600;
+  font-size:12px;
+}
 /* /footer */
