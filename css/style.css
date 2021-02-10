@@ -24,6 +24,9 @@ body{
 .color_lightblue{
   color:#006AFF;
 }
+.color_green{
+  color:#00B8CA;
+}
 h2{
   color:#031C4E;
   font-size: 32px;
@@ -268,6 +271,21 @@ h2{
 .features a{
   font-weight:500;
 }
+.features .box_text{
+  margin-bottom:20px;
+}
 /* /layout features section */
+
+/* layout table section */
+.table_sec{
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,71,197,1) 0%, rgba(0,32,155,1) 100%, rgba(3,141,208,1) 100%);
+}
+.table_sec table {
+  width:100%;
+  font-size:12px;
+}
+
+/* /layout table section */
 
 /* main */
