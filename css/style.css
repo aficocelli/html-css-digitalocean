@@ -34,7 +34,6 @@ h2{
 }
 .inline__bl{
   display:inline-block;
-  vertical-align: middle;
 }
 /* header */
 .top-header{
@@ -317,6 +316,7 @@ h2{
   max-width:500px;
   padding: 50px 0;
   margin-bottom: 30px;
+  vertical-align: middle;
 }
 .box__carousel p:first-of-type{
   font-size:18px;
@@ -423,7 +423,8 @@ footer h5{
   border-radius:5px;
   padding:2px;
   position:relative;
-  float:left;
+  float:right;
+  margin-bottom:10px;
 }
 .shark::before{
   content:"2";
@@ -469,5 +470,14 @@ footer h5{
   right:-12px;
   bottom:14px;
   transform:rotate(90deg);
+}
+@media screen and (max-width:767px){
+  .helper{
+    left: 20px;
+    bottom: 20px;
+  }
+  .shark, .nuvoletta{
+    float:none;
+  }
 }
 /* /footer */
