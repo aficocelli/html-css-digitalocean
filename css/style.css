@@ -406,4 +406,50 @@ footer h5{
   font-weight: 600;
   font-size:12px;
 }
+.helper{
+  position:fixed;
+  right: 25px;
+  bottom: 25px;
+}
+.shark{
+  width:50px;
+  height:50px;
+  background-color: #006AFF;
+  border-radius:5px;
+  padding:2px;
+  position:relative;
+  float:left;
+}
+.shark::before{
+  content:"2";
+  display:block;
+  width:20px;
+  height:20px;
+  border-radius:10px;
+  background-color:red;
+  text-align: center;
+  color:#fff;
+  border:2px solid #fff;
+  font-size:12px;
+  position:absolute;
+  top:-9px;
+  right:-9px;
+}
+.shark img{
+  width:100%;
+}
+.nuvoletta{
+  max-width:230px;
+  height:50px;
+  font-size:12px;
+  padding: 10px 10px;
+  border-radius:5px;
+  color:#031C4E;
+  font-weight: 600;
+  float:left;
+  margin-right:5px;
+}
+.nuvoletta::after{
+  
+}
 /* /footer */
