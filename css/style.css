@@ -337,4 +337,22 @@ h2{
 }
 /* /layout teams section */
 
+/* layout started section */
+.started{
+  background-image:url("../img/bg-last-sec.svg");
+  padding:50px 0;
+}
+.started h3{
+  color:#fff;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom:20px;
+}
+.started a{
+  background-color:#fff;
+  font-weight: 600;
+  color:#0040BA;
+}
+/* layout started section */
+
 /* main */
