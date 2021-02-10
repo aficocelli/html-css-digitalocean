@@ -108,6 +108,7 @@ h2{
 /* layout form */
 .form__hero{
   border-radius:6px;
+  padding:10px;
 }
 .form__hero h2{
   font-size: 24px;
