@@ -74,6 +74,10 @@ h2{
   border:1px solid #1C7AFF;
   color:#1C7AFF;
 }
+.second_menu .signup_effect:hover{
+  background-color: #1C7AFF;
+  color:#fff;
+}
 /* /layout button sign up */
 
 /* hamburger button */
