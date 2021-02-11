@@ -264,7 +264,12 @@ h2{
 .designed img {
   width:50%;
 }
+.designed img:hover{
+  -webkit-box-shadow: 3px 1px 20px 8px rgba(156,156,156,1);
+  -moz-box-shadow: 3px 1px 20px 8px rgba(156,156,156,1);
+  box-shadow: 3px 1px 20px 8px rgba(156,156,156,1);
 
+}
 /* layout carousel */
 .icon_img{
   display: inline-block;
@@ -330,6 +335,11 @@ h2{
   padding: 50px 0;
   margin-bottom: 30px;
   vertical-align: middle;
+}
+.box__carousel:hover{
+  -webkit-box-shadow: 3px 1px 20px 8px rgba(156,156,156,1);
+  -moz-box-shadow: 3px 1px 20px 8px rgba(156,156,156,1);
+  box-shadow: 3px 1px 20px 8px rgba(156,156,156,1);
 }
 .box__carousel p:first-of-type{
   font-size:18px;
