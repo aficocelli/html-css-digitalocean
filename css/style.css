@@ -319,6 +319,13 @@ h2{
 .table_sec table tr:not(:last-child){
   border-bottom:1px solid #fff;
 }
+.table_sec table tr:hover{
+  border-bottom:3px solid #fff;
+}
+.table_sec table td a:hover{
+  color:#fff;
+  text-decoration: none;
+}
 .table_sec table td{
   padding:10px 0;
 }
