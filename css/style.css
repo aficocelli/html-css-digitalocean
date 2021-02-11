@@ -69,6 +69,9 @@ h2{
   margin-right:16px;
 }
 
+.first_menu li a:hover, .second_menu li a:hover{
+  color:#2485FD;
+}
 /* layout button sign up */
 .second_menu .button_signup{
   background-color: #fff;
