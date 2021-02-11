@@ -208,6 +208,14 @@ h2{
   border-left: 1.5px solid lightgrey;
   padding: 10px 10px;
 }
+.deploy li:hover{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,28,78,0.39539565826330536) 0%, rgba(0,105,255,1) 100%, rgba(0,29,157,1) 100%, rgba(0,32,155,1) 100%, rgba(3,141,208,1) 100%);
+  border-left: 1.5px solid #031C4E;
+}
+.deploy li:hover a{
+  color:#031C4E;
+}
 .deploy li a{
   color:#75809C;
   font-weight:500;
